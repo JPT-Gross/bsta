@@ -1,4 +1,5 @@
 # 2023-24 Broward Student Technology Association (BSTA) High School Competition Handbook
+## Monday, April 8th, 2024 at J.P. Taravella High School
 
 # These Rules Are Subject to Change as Participants Review for Errors or Inconsistencies.
 ![Broward Technology Student Association](images/bsta_logo.png "Broward Technology Student Association")
