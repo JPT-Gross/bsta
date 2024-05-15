@@ -1,1 +1,22 @@
 @charset "utf-8";
+
+#media{
+    padding: 0px;
+}
+
+.media{
+    background: #d9d9d9;
+    height: 50vh;
+    margin: 5px 0px;
+    padding: 5% 15%;
+}
+
+.media img{
+    height: 100%;
+    aspect-ratio: 16/9;
+    object-fit: contain;
+}
+
+.media-text{
+    width: 50%;
+}
