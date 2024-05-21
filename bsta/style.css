@@ -1,0 +1,194 @@
+@charset "utf-8";
+
+*{
+	font-family: 'Metropolis', sans-serif;  
+    font-weight: 500; 
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.basic{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.flex{
+    display: flex;
+}
+
+.flexrow{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.hundred{
+    width: 100%;
+}
+
+.center{
+    margin: auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: #19105f;
+}
+
+a:hover{
+    color: #ed1c24;
+}
+
+h1{
+    font-size: 30pt;
+}
+
+nav a, footer a{
+    color: white;
+}
+
+header{
+    background: #ed1c24;
+    position: fixed;
+    height: 60px;
+}
+
+#logo-div{
+    width: 15%;
+    padding-left: 5%;
+}
+
+#logo-div a{
+    width: 100%;
+    margin: 5px 0px;
+}
+
+#logo-div img#logo{
+    width: 100%;
+    object-fit: contain;
+    aspect-ratio: 1/0.25;
+}
+
+header nav{
+    width: 85%;
+    padding-left: 2.5%;
+}
+
+header nav a{
+    color: white;
+    border: 4px solid rgba(255, 255, 255, 0);
+    border-width: 0px 0px 2px 0px;
+    margin: auto 10px;
+    font-size: 13pt;
+}
+
+header nav a:hover{
+    border: 4px solid #19105f;
+    border-width: 0px 0px 2px 0px;
+    color: #19105f;
+}
+
+header .links{
+    width: 85%;
+}
+
+#sub-nav{
+    margin-top: 57px;
+    background: #19105f;
+    color: white;
+    padding: 10px 0px;
+    position: fixed;
+}
+
+#sub-nav ul{
+    padding: 15px 0px;
+}
+
+#sub-nav ul li{
+    list-style-type: none;
+    margin: 0px 10px;
+}
+
+#sub-nav a{
+    color: #d9d9d9;
+}
+
+#sub-nav a:hover{
+    color: #ed1c24;
+}
+
+main{
+    margin-top: 75px;
+}
+
+section h2, section h3{
+    width: 100%;
+}
+
+section{
+    width: 50%;
+    padding: 0px 100px;
+}
+
+#sitemap{
+    width: 50%;
+}
+
+#sitemap .indent{
+    text-indent: 25px;
+    list-style-type: none;
+}
+
+#sitemap ul li{
+    margin: 25px 0px;
+}
+
+#sitemap ul a{
+    font-size: 16pt;
+}
+
+#sitemap .class{
+    font-size: 14pt;
+}
+
+footer{
+    background: #19105f;
+    color: white;
+    text-align: center;
+    padding: 25px 0px;
+    margin-top: 50px;
+    position: relative;
+    bottom: 0;
+}
+
+footer nav{
+    margin-bottom: 10px;
+}
+
+footer nav a{
+    text-align: center;
+    border: 3px solid #ffffff00;
+}
+
+footer nav a:nth-child(2) {
+    border: 2px solid #ed1c24;
+    border-width: 0px 2px 0px 2px;
+    padding: 2.5px 5px;
+}
+
+footer a:hover{
+    color: #ed1c24;
+}
+
+footer p{
+    padding: 5px 0px;
+}
+
+section a{
+    border: solid green;
+}

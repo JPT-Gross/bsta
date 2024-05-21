@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+main{
+    padding-top: 100px;
+}
+
+section{
+    padding-top: 150px;
+    margin-top: -150px;
+}
+
+section h2{
+    margin: 25px 0px;
+    font-size: 30pt;
+}
+
+section ul li{
+    padding: 10px 25px;
+    list-style-type: square;
+}
+
+section h2, section h3, section ul, section li{
+    width: 100%;
+}
+
+footer{
+    margin-top: 150px;
+}
